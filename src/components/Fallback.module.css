@@ -1,0 +1,37 @@
+.fallback {
+    color: #3c3c3c;
+    width: calc(100vw - 24px);
+    height: calc(100vh - 40px);
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.fallback span {
+    font-size: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font: 400;
+}
+
+.fallback .headerBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2rem;
+}
+
+.fallback h1 {
+    font-weight: 400;
+}
+
+.fallback h2 {
+    font-weight: 100;
+}
